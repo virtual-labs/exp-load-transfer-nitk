@@ -150,7 +150,7 @@ P=857.36 kW</td>
 5. Select transformer1, which is to be taken out for maintenance.  
 6. Force operation sequence as follows
 
-<ul type=disc>
+   <ul style="list-style-type: disc">
 <li>BC is changed from OFF to ON.</li>
 <li>CB4 is changed from ON to OFF.</li>
 <li>CB2 is changed from ON to OFF.</li>
@@ -198,7 +198,7 @@ P=1428.94 kW<br>
 8. Select Transformer1, which is to be brought back into service.  
 9. Force operation sequence as follows
 
-<ul type=disc>
+   <ul style="list-style-type: disc">
 <li>GOS3 is changed from open to close.</li>
 <li>CB4 is changed from OFF to ON.</li>
 <li> CB2 is changed from OFF to ON.</li>
@@ -232,7 +232,7 @@ P=1423.94 kW</td>
 <td>V=11 kV,<br>
  I=30 A,<br>
 P=571.58 kW<br>
-<ul type=disc>
+   <ul style="list-style-type: disc">
 <li>M1=M4
 </li>
 </ul></td>
@@ -240,7 +240,7 @@ P=571.58 kW<br>
 <td>V=11 kV,<br>
  I=45 A,<br>
 P=857.36  kW<br>
-<ul type=disc>
+   <ul style="list-style-type: disc">
 <li>M2=M5
 </li>
 </ul></td>

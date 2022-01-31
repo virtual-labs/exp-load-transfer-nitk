@@ -2,38 +2,204 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "DC supply __________ be used for the transformer.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Can",
+        "b": "Connect",
+        "c": "Both Can and Connect",
+        "d": "None"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Current ratios are in _________ of the voltage ratio.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Direct ratio",
+        "b": "Inverse ratio",
+        "c": "Both",
+        "d": "None"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The important characteristics of the fluid used in CB are :-",
+      "answers": {
+        "a": "It should have good thermal and chemical stability",
+        "b": "It should have high dielectric strength and are extinguish ability",
+        "c": "Non- in flammability and high thermal conductivity",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "SF6 circuit breaker is",
+      "answers": {
+        "a": "Expensive",
+        "b": "SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes",
+        "c": "Both Expensiv and SF6 gas has to be reconditioned after every operation of the breaker and additional equipment is required for these purposes",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "A potential transformer is a",
+      "answers": {
+        "a": "Step up transformer",
+        "b": "Step down transformer",
+        "c": "Both Step up transformer and Step down transformer",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "_________ is used to make sure that an electrical circuit can be completely de-energized for service or maintenance.",
+      "answers": {
+        "a": "Circuit breaker",
+        "b": "Isolator",
+        "c": "Fuse",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Isolators are __________",
+      "answers": {
+        "a": "Manually operated",
+        "b": "Motorized",
+        "c": "Both Manually operated and Motorized",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "In a transformer, if N2 is number of secondary winding N1 is the number of primary winding then, if (N2/N1) ratio is greater than 1.It is called as ________",
+      "answers": {
+        "a": "Step up transformer",
+        "b": "Step down transformer",
+        "c": "Isolation transformer",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Oil transformer usually consist of,",
+      "answers": {
+        "a": "A conservator tank, buchholz relay",
+        "b": "Breather of dehydrating type",
+        "c": "Winding temperature-indicator, oil temperature indicator",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "In case of, OFF circuit taps, the transformer must be _________ before the tap changer mechanism is operated.",
+      "answers": {
+        "a": "Energized",
+        "b": "De-energized",
+        "c": "Both Energized and De-energized",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "To prevent the moisture from entering the conservator, a __________ is provided that will dry the air as the breather takes place.",
+      "answers": {
+        "a": "Magnesium dioxide breather",
+        "b": "Silica gel breather",
+        "c": "Both Magnesium dioxide breather and Silica gel breather",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "In double bus'bar system ,there is a provision of a bus-bar coupling switch for transferring operation from one bus-bar to another _________ .",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
     }
   ]
 }

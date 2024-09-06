@@ -25,15 +25,18 @@ let circuitControl = [
     control: 1,
     status: {
       id: "cb1",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 185px;width: 40px;",
+      src: "images/on.png",
     },
     forceOperation: {
       id: "cb1Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 185px;width: 40px; cursor: pointer",
+      src: "images/off.png",
     },
     indicator: {
       id: "ind1",
-      activated: true,
+      pos: "position: absolute; left: 455px; top: 75px;width: 32px;",
+      src: "images/green.png",
     },
     active: true,
   },
@@ -41,15 +44,18 @@ let circuitControl = [
     control: 2,
     status: {
       id: "cb2",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 213px;width: 40px; ",
+      src: "images/on.png",
     },
     forceOperation: {
       id: "cb2Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 213px;width: 40px; cursor: pointer",
+      src: "images/off.png",
     },
     indicator: {
       id: "ind2",
-      activated: true,
+      pos: "position: absolute; left: 355px; top: 199px;width: 32px;",
+      src: "images/green.png",
     },
     active: true,
   },
@@ -57,15 +63,18 @@ let circuitControl = [
     control: 3,
     status: {
       id: "cb3",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 240px;width: 40px; ",
+      src: "images/on.png",
     },
     forceOperation: {
       id: "cb3Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 240px;width: 40px; cursor: pointer",
+      src: "images/off.png",
     },
     indicator: {
       id: "ind3",
-      activated: true,
+      pos: "position: absolute; left: 594px; top: 199px;width: 32px;",
+      src: "images/green.png",
     },
     active: true,
   },
@@ -73,15 +82,18 @@ let circuitControl = [
     control: 4,
     status: {
       id: "cb4",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 268px;width: 40px; ",
+      src: "images/on.png",
     },
     forceOperation: {
       id: "cb4Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 268px;width: 40px; cursor: pointer",
+      src: "images/off.png",
     },
     indicator: {
       id: "ind4",
-      activated: true,
+      pos: "position: absolute; left: 353px; top: 270px;width: 32px;",
+      src: "images/green.png",
     },
     active: true,
   },
@@ -89,15 +101,18 @@ let circuitControl = [
     control: 5,
     status: {
       id: "cb5",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 296px;width: 40px; ",
+      src: "images/on.png",
     },
     forceOperation: {
       id: "cb5Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 296px;width: 40px; cursor: pointer",
+      src: "images/off.png",
     },
     indicator: {
       id: "ind5",
-      activated: true,
+      pos: "position: absolute; left: 596px; top: 270px;width: 32px;",
+      src: "images/green.png",
     },
     active: true,
   },
@@ -105,15 +120,18 @@ let circuitControl = [
     control: 6,
     status: {
       id: "cb6",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 326px;width: 40px; ",
+      src: "images/on.png",
     },
     forceOperation: {
       id: "cb6Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 326px;width: 40px; cursor: pointer",
+      src: "images/off.png",
     },
     indicator: {
       id: "ind6",
-      activated: true,
+      pos: "position: absolute; left: 280.5px; top: 347px;width:32px",
+      src: "images/green.png",
     },
     active: true,
   },
@@ -121,15 +139,18 @@ let circuitControl = [
     control: 7,
     status: {
       id: "cb7",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 356px;width: 40px;",
+      src: "images/on.png",
     },
     forceOperation: {
       id: "cb7Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 356px;width: 40px; cursor: pointer",
+      src: "images/off.png",
     },
     indicator: {
       id: "ind7",
-      activated: true,
+      pos: "position: absolute; left: 652.5px; top: 347px;width:32px",
+      src: "images/green.png",
     },
     active: true,
   },
@@ -137,15 +158,18 @@ let circuitControl = [
     control: 8,
     status: {
       id: "cb8",
-      activated: false,
+      pos: "position: absolute; left: 65px; top: 384px;width: 40px; ",
+      src: "images/off.png",
     },
     forceOperation: {
       id: "cb8Force",
-      activated: true,
+      pos: "position: absolute; left: 125px; top: 384px;width: 40px; cursor: pointer",
+      src: "images/on.png",
     },
     indicator: {
       id: "ind8",
-      activated: false,
+      pos: "position: absolute; left: 458px; top: 294px;width: 32px;",
+      src: "images/red.png",
     },
     active: false,
   },
@@ -153,15 +177,18 @@ let circuitControl = [
     control: 9,
     status: {
       id: "gos1Status",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 424px;width: 40px; cursor: pointer",
+      src: "images/goson.png",
     },
     forceOperation: {
       id: "gos1Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 424px;width: 40px; cursor: pointer",
+      src: "images/gosoff.png",
     },
     indicator: {
       id: "switch1",
-      activated: true,
+      pos: "position: absolute; left: 352px; top: 154px;width: 38px; cursor: pointer",
+      src: "images/swBlack.png",
     },
     active: true,
   },
@@ -169,15 +196,18 @@ let circuitControl = [
     control: 10,
     status: {
       id: "gos2Status",
-      activated: true,
+      pos: "position: absolute; left: 65px; top: 444px;width: 40px; cursor: pointer",
+      src: "images/goson.png",
     },
     forceOperation: {
       id: "gos2Force",
-      activated: false,
+      pos: "position: absolute; left: 125px; top: 444px;width: 40px; cursor: pointer",
+      src: "images/gosoff.png",
     },
     indicator: {
       id: "switch2",
-      activated: true,
+      pos: "position: absolute; left: 590px; top: 155px;width: 38px; cursor: pointer",
+      src: "images/swBlack.png",
     },
     active: true,
   },
@@ -195,10 +225,10 @@ let operations = [
     txt: "Take Out",
     clicked: false,
     step: [
-      { id: "cb8Force", activated: false },
-      { id: "cb4Force", activated: false },
-      { id: "cb2Force", activated: false },
-      { id: "gos1Force", activated: false },
+      { id: "cb8Force", status: false },
+      { id: "cb4Force", status: false },
+      { id: "cb2Force", status: false },
+      { id: "gos1Force", status: false },
     ],
   },
   {
@@ -212,10 +242,10 @@ let operations = [
     txt: "Take In",
     clicked: false,
     step: [
-      { id: "gos1Force", activated: false },
-      { id: "cb2Force", activated: false },
-      { id: "cb4Force", activated: false },
-      { id: "cb8Force", activated: false },
+      { id: "gos1Force", status: false },
+      { id: "cb2Force", status: false },
+      { id: "cb4Force", status: false },
+      { id: "cb8Force", status: false },
     ],
   },
   {
@@ -229,10 +259,10 @@ let operations = [
     txt: "Take Out",
     clicked: false,
     step: [
-      { id: "cb8Force", activated: false },
-      { id: "cb5Force", activated: false },
-      { id: "cb3Force", activated: false },
-      { id: "gos2Force", activated: false },
+      { id: "cb8Force", status: false },
+      { id: "cb5Force", status: false },
+      { id: "cb3Force", status: false },
+      { id: "gos2Force", status: false },
     ],
   },
   {
@@ -246,35 +276,13 @@ let operations = [
     txt: "Take In",
     clicked: false,
     step: [
-      { id: "gos2Force", activated: false },
-      { id: "cb3Force", activated: false },
-      { id: "cb5Force", activated: false },
-      { id: "cb8Force", activated: false },
+      { id: "gos2Force", status: false },
+      { id: "cb3Force", status: false },
+      { id: "cb5Force", status: false },
+      { id: "cb8Force", status: false },
     ],
   },
 ];
-
-// typeWriter();
-
-circuitControl.forEach(function (circuit, index) {
-  // console.log(document.getElementById(circuit.forceOperation.id));
-  // let status = document.createElement("img");
-  // let force = document.createElement("img");
-  // let indicator = document.createElement("img");
-  // status.setAttribute("id", circuit.status.id);
-  // status.setAttribute("src", circuit.status.src);
-  // status.setAttribute("style", circuit.status.pos);
-  // force.setAttribute("id", circuit.forceOperation.id);
-  // force.setAttribute("src", circuit.forceOperation.src);
-  // force.setAttribute("style", circuit.forceOperation.pos);
-  // document.getElementById(id).addEventListener("click", activate(`${index}`));
-  // indicator.setAttribute("id", circuit.indicator.id);
-  // indicator.setAttribute("src", circuit.indicator.src);
-  // indicator.setAttribute("style", circuit.indicator.pos);
-  // document.getElementById("canvas0").appendChild(status);
-  // document.getElementById("canvas0").appendChild(force);
-  // document.getElementById("canvas0").appendChild(indicator);
-});
 
 function blinkArrow(id) {
   if (document.getElementById(id).style.visibility == "visible") {
@@ -307,7 +315,6 @@ function removeInfo() {
 }
 
 function giveOptions(ele) {
-  console.log(ele);
   if (!selectedTransformer) {
     let connection = ele.id == "tr1" ? "tr-1-task" : "tr-2-task";
     let takeOut = ele.id == "tr1" ? "t1" : "t3";
@@ -332,8 +339,8 @@ function giveOptions(ele) {
 function changeSwitchStatus(ele) {
   data.filter((e) => {
     if (e.id == ele.id) {
-      e.activated = !e.activated;
-      changeSwitch(e, e.activated);
+      e.status = !e.status;
+      changeSwitch(e, e.status);
     }
   });
 }
@@ -368,29 +375,28 @@ function setOperation(ele) {
     if (op.id == ele.id) {
       if (ele.id == "t2" && takeOutTr1Clicked == false) {
         showPopup(
-          `You have to select Take Out operation for this Transfromer <span style="color:blue">${transformer} </span>. Only then you can perform Take In operation`
+          `You have to select Take Out operation for this Transfromer <span style="color:#580606">${transformer} </span>. Only then you can perform Take In operation`
         );
       } else if (ele.id == "t4" && takeOutTr2Clicked == false) {
         showPopup(
-          `You have to select Take Out operation for this Transfromer <span style="color:blue">${transformer} </span>. Only then you can perform Take In operation`
+          `You have to select Take Out operation for this Transfromer <span style="color:#580606">${transformer} </span>. Only then you can perform Take In operation`
         );
       } else if (ele.id == "t1" && takeOutTr1Clicked == true) {
         showPopup(
-          `You have performed Take Out operation for this Transfromer <span style="color:blue">${transformer} </span>. You can perform Take In operation`
+          `You have performed Take Out operation for this Transfromer <span style="color:#580606">${transformer} </span>. You can perform Take In operation`
         );
       } else if (ele.id == "t3" && takeOutTr2Clicked == true) {
         showPopup(
-          `You have performed Take Out operation for this Transfromer <span style="color:blue">${transformer} </span>. You can perform Take In operation`
+          `You have performed Take Out operation for this Transfromer <span style="color:#580606">${transformer} </span>. You can perform Take In operation`
         );
       } else {
         operationId = ele.id;
         op.clicked = true;
         selectedTransformer = true;
         buttonsArray = op.step;
-        console.log(buttonsArray);
-        buttonsArray.forEach(function (btn, id) {
+        buttonsArray.forEach((btn, index) => {
           document.getElementById(btn.id).onclick = function () {
-            activate(btn.id, btn, id);
+            activate(btn.id, btn, index);
           };
         });
         showPopup(
@@ -398,12 +404,12 @@ function setOperation(ele) {
         );
         if (op.id == "t1" || op.id == "t3") {
           showPopup(
-            `You have selected Transfromer <span style="color:blue">${transformer} </span>and <span style="color:blue">Take out</span> operation. So you need go with Take In opertation or Reset to try with next transformer`
+            `You have selected Transfromer <span style="color:#580606">${transformer} </span>and <span style="color:#580606">Take out</span> operation. So you need go with Take In opertation or Reset to try with next transformer`
           );
         }
         if (op.id == "t2" || op.id == "t4") {
           showPopup(
-            `You have selected Transfromer <span style="color:blue">${transformer} </span>and <span style="color:blue">Take In</span> operation. So you need go with Reset to try with next transformer`
+            `You have selected Transfromer <span style="color:#580606">${transformer} </span>and <span style="color:#580606">Take In</span> operation. So you need go with Reset to try with next transformer`
           );
         }
       }
@@ -412,13 +418,13 @@ function setOperation(ele) {
 }
 
 function activate(index, btn, id) {
-  console.log(index, btn, id);
+  console.log(btn);
   let status = checkForButtonStatus(btn, id);
   if (status) {
     circuitControl.filter(function (circuit) {
       if (circuit.forceOperation.id == index) {
         circuit.active = !circuit.active;
-        btn.activated = !btn.activated;
+        btn.status = !btn.status;
         // if(circuit.status.id == 'cb8' && circuit.active == false){
         //     document.getElementById(circuit.status.id).src=circuit.active ? "images/on.png" : "images/off.png" ;
         //     document.getElementById(circuit.forceOperation.id).src = circuit.active ? "images/off.png":"images/on.png" ;
@@ -427,10 +433,23 @@ function activate(index, btn, id) {
         if (index == "gos1Force" || index == "gos2Force") {
           document.getElementById(circuit.status.id).textContent =
             circuit.active ? "ON" : "OFF";
+          if (circuit.active) {
+            document.getElementById(circuit.status.id).style.color = "blue";
+          } else {
+            document.getElementById(circuit.status.id).style.color = "red";
+          }
           document.getElementById(circuit.forceOperation.id).textContent =
             circuit.active ? "OFF" : "ON";
-          document.getElementById(circuit.indicator.id).textContent =
-            circuit.active ? "images/swBlack.png" : "images/swRed.png";
+          if (circuit.active) {
+            document.getElementById(circuit.forceOperation.id).style.color =
+              "red";
+          } else {
+            document.getElementById(circuit.forceOperation.id).style.color =
+              "blue";
+          }
+          document.getElementById(circuit.indicator.id).src = circuit.active
+            ? "images/swBlack.png"
+            : "images/swRed.png";
         } else {
           document.getElementById(circuit.status.id).textContent =
             circuit.active ? "ON" : "OFF";
@@ -591,25 +610,24 @@ function resetSetup() {
   document.getElementById("mi5").innerHTML = 45;
   document.getElementById("mv5").innerHTML = 11;
   document.getElementById("mp5").innerHTML = 857.36;
-  document.getElementById("info").style.visibility = "hidden";
-  document.getElementById("c1").style.visibility = "hidden";
-  document.getElementById("c2").style.visibility = "hidden";
-  document.getElementById("t1").style.visibility = "hidden";
-  document.getElementById("t2").style.visibility = "hidden";
-  document.getElementById("t3").style.visibility = "hidden";
-  document.getElementById("t4").style.visibility = "hidden";
+  document.getElementById("info").classList.add("hide");
+  document.querySelector(".tr-1-task").classList.add("hide");
+  document.querySelector(".tr-2-task").classList.add("hide");
+  // document.getElementById("t1").classList.add("hide");
+  // document.getElementById("t2").classList.add("hide");
+  // document.getElementById("t3").classList.add("hide");
+  // document.getElementById("t4").classList.add("hide");
   document.getElementById("transformer1").src = "images/transformerInitial.png";
   document.getElementById("transformer2").src = "images/transformerInitial.png";
   document.getElementById("bcStatus").innerHTML = "Open";
   circuitControl.forEach(function (circuit) {
     if (circuit.status.id == "cb8") {
       circuit.active = false;
-      document.getElementById(circuit.status.id).src = circuit.active
-        ? "images/on.png"
-        : "images/off.png";
-      document.getElementById(circuit.forceOperation.id).src = circuit.active
-        ? "images/off.png"
-        : "images/on.png";
+      document.getElementById(circuit.status.id).textContent = circuit.active
+        ? "ON"
+        : "OFF";
+      document.getElementById(circuit.forceOperation.id).textContent =
+        circuit.active ? "OFF" : "ON";
       document.getElementById(circuit.indicator.id).src = circuit.active
         ? "images/green.png"
         : "images/red.png";
@@ -618,23 +636,21 @@ function resetSetup() {
       circuit.status.id == "gos2Status"
     ) {
       circuit.active = true;
-      document.getElementById(circuit.status.id).src = circuit.active
-        ? "images/goson.png"
-        : "images/gosoff.png";
-      document.getElementById(circuit.forceOperation.id).src = circuit.active
-        ? "images/gosoff.png"
-        : "images/goson.png";
+      document.getElementById(circuit.status.id).textContent = circuit.active
+        ? "ON"
+        : "OFF";
+      document.getElementById(circuit.forceOperation.id).textContent =
+        circuit.active ? "OFF" : "ON";
       document.getElementById(circuit.indicator.id).src = circuit.active
         ? "images/swBlack.png"
         : "images/swRed.png";
     } else {
       circuit.active = true;
-      document.getElementById(circuit.status.id).src = circuit.active
-        ? "images/on.png"
-        : "images/off.png";
-      document.getElementById(circuit.forceOperation.id).src = circuit.active
-        ? "images/off.png"
-        : "images/on.png";
+      document.getElementById(circuit.status.id).textContent = circuit.active
+        ? "ON"
+        : "OFF";
+      document.getElementById(circuit.forceOperation.id).textContent =
+        circuit.active ? "OFF" : "ON";
       document.getElementById(circuit.indicator.id).src = circuit.active
         ? "images/green.png"
         : "images/red.png";

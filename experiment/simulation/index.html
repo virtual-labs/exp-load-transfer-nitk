@@ -1,86 +1,245 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>SOLVE</title>
-<link rel="stylesheet" href="css/transformer.css" />
-<script>
-var simsubscreennum=0;
-var temp=0;
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE -SA</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/transformer2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="./images/logo_nitk.png" alt="logo" class="logo" />
+        <h1>
+          Operating Breakers from Workstation during Maintenance Operation
+        </h1>
+      </div>
+      <div class="main">
+        <div class="transformers">
+          <p class="tr-text" id="tag">
+            Select Transformer for Maintenance. Only one transformer can be
+            tried at once.
+          </p>
 
+          <div class="tr tr-1" id="tr1" onclick="giveOptions(this)">TR1</div>
+          <div class="tr tr-2" id="tr2" onclick="giveOptions(this)">TR2</div>
+          <div class="tasks">
+            <div class="task tr-1-task hide" id="tr-1-task">
+              <div
+                class="take take-1"
+                id="t1"
+                onmouseover="updateList(this)"
+                onmouseout="removeInfo()"
+                onclick="setOperation(this)"
+              >
+                Take Out
+              </div>
+              <div
+                class="take take-2"
+                id="t2"
+                onmouseover="updateList(this)"
+                onmouseout="removeInfo()"
+                onclick="setOperation(this)"
+              >
+                Take In
+              </div>
+            </div>
+            <div class="task tr-2-task hide" id="tr-2-task">
+              <div
+                class="take take-3"
+                id="t3"
+                onmouseover="updateList(this)"
+                onmouseout="removeInfo()"
+                onclick="setOperation(this)"
+              >
+                Take Out
+              </div>
+              <div
+                class="take take-4"
+                id="t4"
+                onmouseover="updateList(this)"
+                onmouseout="removeInfo()"
+                onclick="setOperation(this)"
+              >
+                Take In
+              </div>
+            </div>
+          </div>
+          <div class="info hide" id="info">
+            <ul>
+              <li>ddas</li>
+              <li>ddas</li>
+            </ul>
+          </div>
+        </div>
+        <div class="control-switches">
+          <p class="status-text">Status</p>
+          <p class="force-text">Force Operation Control</p>
+          <div class="control">
+            <p>CB1</p>
+            <button id="cb1">ON</button>
+            <button id="cb1Force">OFF</button>
+          </div>
+          <div class="control">
+            <p>CB2</p>
+            <button id="cb2">ON</button>
+            <button id="cb2Force">OFF</button>
+          </div>
+          <div class="control">
+            <p>CB3</p>
+            <button id="cb3">ON</button>
+            <button id="cb3Force">OFF</button>
+          </div>
+          <div class="control">
+            <p>CB4</p>
+            <button id="cb4">ON</button>
+            <button id="cb4Force">OFF</button>
+          </div>
+          <div class="control">
+            <p>CB5</p>
+            <button id="cb5">ON</button>
+            <button id="cb5Force">OFF</button>
+          </div>
+          <div class="control">
+            <p>CB6</p>
+            <button id="cb6">ON</button>
+            <button id="cb6Force">OFF</button>
+          </div>
+          <div class="control">
+            <p>CB7</p>
+            <button id="cb7">ON</button>
+            <button id="cb7Force">OFF</button>
+          </div>
+          <div class="control">
+            <p>BC</p>
+            <button id="cb8">OFF</button>
+            <button id="cb8Force">ON</button>
+          </div>
+        </div>
+        <div class="gos-switches">
+          <div class="gos">
+            <p>GOS 3</p>
+            <button id="gos1Status" class="gos-btn on">ON</button>
+            <button id="gos1Force" class="gos-btn off">OFF</button>
+          </div>
+          <div class="gos">
+            <p>GOS 4</p>
+            <button id="gos2Status" class="gos-btn on">ON</button>
+            <button id="gos2Force" class="gos-btn off">OFF</button>
+          </div>
+        </div>
+        <div class="main-setup">
+          <img
+            src="./images/main.png"
+            alt="main"
+            class="main-setup-img"
+            id="main"
+          />
+          <img
+            src="images/transformerInitial.png"
+            id="transformer1"
+            class="transformer transformer-1"
+          />
 
-</script>
-</head>
+          <img
+            src="images/transformerInitial.png"
+            id="transformer2"
+            class="transformer transformer-2"
+          />
+          <img
+            src="./images/green.png"
+            alt="indicator"
+            class="indicators ind1"
+            id="ind1"
+          />
+          <img
+            src="./images/green.png"
+            alt="indicator"
+            class="indicators ind2"
+            id="ind2"
+          />
+          <img
+            src="./images/green.png"
+            alt="indicator"
+            class="indicators ind3"
+            id="ind3"
+          />
+          <img
+            src="./images/green.png"
+            alt="indicator"
+            class="indicators ind4"
+            id="ind4"
+          />
+          <img
+            src="./images/green.png"
+            alt="indicator"
+            class="indicators ind5"
+            id="ind5"
+          />
+          <img
+            src="./images/green.png"
+            alt="indicator"
+            class="indicators ind6"
+            id="ind6"
+          />
+          <img
+            src="./images/green.png"
+            alt="indicator"
+            class="indicators ind7"
+            id="ind7"
+          />
+          <img
+            src="./images/red.png"
+            alt="indicator"
+            class="indicators ind8"
+            id="ind8"
+          />
+          <img
+            src="./images/swBlack.png"
+            alt="switch"
+            class="switch switch1"
+            id="switch1"
+          />
+          <img
+            src="./images/swBlack.png"
+            alt="switch"
+            class="switch switch2"
+            id="switch2"
+          />
+          <span class="m1 mi1" id="mi1">30</span>
+          <span class="m1 mv1" id="mv1">11</span>
+          <span class="m1 mp1" id="mp1">571.58</span>
+          <span class="m2 mi2" id="mi2">45</span>
+          <span class="m2 mv2" id="mv2">11</span>
+          <span class="m2 mp2" id="mp2">857.36</span>
+          <span class="m3 mi3" id="mi3">25</span>
+          <span class="m3 mv3" id="mv3">33</span>
+          <span class="m3 mp3" id="mp3">1428.94</span>
+          <span class="m4 mi4" id="mi4">30</span>
+          <span class="m4 mv4" id="mv4">11</span>
+          <span class="m4 mp4" id="mp4">571.58</span>
+          <span class="m5 mi5" id="mi5">45</span>
+          <span class="m5 mv5" id="mv5">11</span>
+          <span class="m5 mp5" id="mp5">857.36</span>
+          <span id="bcStatus" class="bcStatus">Open</span>
+          <button class="btn btn-reset" id="reset" onclick="resetSetup()">
+            Reset
+          </button>
+        </div>
+      </div>
 
-<body style="margin:0; font-family:verdana;">
-<div id="simscreen">
-<div id="title"><h5>Operating Breakers From Workstation During Maintenance Operation</h5></div>
-
-<div class="simsubscreen" id="canvas0">
-	<img src="images/main.png" id="main" class="responsive" style="position: absolute; left: 20px; top: 20px;max-width: 800px;"/>
-	<img src="images/arrow.png" id="arr" style="position: absolute; left: 160px; top: 250px;width: 55px; visibility:visible">	
-	<img src="images/reset.png" style="position: absolute; left: 450px; top: 410px;width: 70px; cursor: pointer" onclick="resetSetup()">
-
-	<img src="images/tr1.png" id="tr1" style="position: absolute; left: 30px; top: 40px;width: 45px; cursor: pointer" onclick="giveOptions(this)">
-	<img src="images/tr2.png"  id="tr2" style="position: absolute; left: 30px; top: 100px;width: 45px; cursor: pointer" onclick="giveOptions(this)">
-
-	<img src="images/connectors.png" id="c1" style="position: absolute; left: 65px; top: 20px;width: 35px;visibility: hidden" >
-	<img src="images/connectors.png" id="c2" style="position: absolute; left: 65px; top: 80px;width: 35px; cursor: pointer; visibility: hidden" >
-
-	<img src="images/takeOut.png"  id="t1" style="position: absolute; left: 80px; top: 20px;width: 65px; cursor: pointer;visibility: hidden" onmouseover="updateList(this)" onmouseout="removeInfo()" onclick = "setOperation(this)">
-	<img src="images/takeIn.png" id="t2"  style="position: absolute; left: 80px; top: 55px;width: 65px; cursor: pointer;visibility: hidden" onmouseover="updateList(this)" onmouseout="removeInfo()" onclick = "setOperation(this)">
-	<img src="images/takeOut.png"  id="t3" style="position: absolute; left: 80px; top: 85px;width: 65px; cursor: pointer;visibility: hidden" onmouseover="updateList(this)" onmouseout="removeInfo()" onclick = "setOperation(this)">
-	<img src="images/takeIn.png"  id="t4" style="position: absolute; left: 80px; top: 120px;width: 65px; cursor: pointer;visibility: hidden" onmouseover="updateList(this)" onmouseout="removeInfo()" onclick = "setOperation(this)">
-	
-
-	<img src="images/transformerInitial.png"  id="transformer1" style="position: absolute; left: 354px; top: 232px;width: 28px; cursor: pointer" >
-
-	<img src="images/transformerInitial.png"  id="transformer2" style="position: absolute; left: 595px; top: 232px;width: 28px; cursor: pointer" >
-
-	<p id="bcStatus" style="position: absolute;left: 460px;top: 270px;font-size: 10px;color: blue;">Open</p>
-	<p id="mi1" style="position: absolute;left: 325px;top: 332px;font-size: 10px;color: red;">30</p>
-	<p id="mv1" style="position: absolute;left: 360px;top: 332px;font-size: 10px;color: red;">11</p>
-	<p id="mp1" style="position: absolute;left: 390px;top: 332px;font-size: 10px;color: red;">571.58</p>
-
-
-	<p id="mi2" style="position: absolute;left: 540px;top: 332px;font-size: 10px;color: red;">45</p>
-	<p id="mv2" style="position: absolute;left: 576px;top: 332px;font-size: 10px;color: red;">11</p>
-	<p id="mp2" style="position: absolute;left: 606px;top: 332px;font-size: 10px;color: red;">857.36</p>
-
-
-	<p id="mi3" style="position: absolute;left: 515px;top: 88px;font-size: 10px;color: red;">25</p>
-	<p id="mv3" style="position: absolute;left: 550px;top: 88px;font-size: 10px;color: red;">33</p>
-	<p id="mp3" style="position: absolute;left: 576px;top: 88px;font-size: 10px;color: red;">1428.94</p>
-
-
-	<p id="mi4" style="position: absolute;left: 398px;top: 240px;font-size: 10px;color: red;">30</p>
-	<p id="mv4" style="position: absolute;left: 425px;top: 240px;font-size: 10px;color: red;">11</p>
-	<p id="mp4" style="position: absolute;left: 445px;top: 240px;font-size: 10px;color: red;">571.58</p>
-
-
-	<p id="mi5" style="position: absolute;left: 498px;top: 240px;font-size: 10px;color: red;">45</p>
-	<p id="mv5" style="position: absolute;left: 524px;top: 240px;font-size: 10px;color: red;">11</p>
-	<p id="mp5" style="position: absolute;left: 548px;top: 240px;font-size: 10px;color: red;">857.36</p>
-	
-	<p id="tag" style="position: absolute; left: 26px; top: -5px; font-size: 10px"></p>
-
-	<div id="info" style="position: absolute; left: 210px; top: 22px; width: 270px; height: 160px; border: 1px solid black; padding: 10px; font-size: 14px;background-color: rgb(250, 229, 217); z-index: 1; color: black;visibility: hidden">
-	</div>
-
-</div>
-
-
-
-<div class="parentPopup" id="parentPopup">
-	<div class="popup" id="popUpContent">    
-		dcdcdd  
-	</div>
-</div>
-
- 
-<div id="copyright"> &copy;<script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal</div>
-</div>
-<script type="text/javascript" src="js/transformer.js"></script>
-
-</body>
+      <div class="copyright">
+        <span style="font-weight: 900; font-size: 1.4rem">&copy;&nbsp;</span>
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        SOLVE - The Virtual Lab @ NITK Surathkal
+      </div>
+      <div class="parentPopup displayy" id="parentPopup">
+        <div class="popup" id="popUpContent"></div>
+        <span></span>
+      </div>
+    </div>
+  </body>
 </html>

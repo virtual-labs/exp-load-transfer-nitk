@@ -1,0 +1,358 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In a transformer, if N2 is number of secondary winding N1 is the number of primary winding then, if (N2/N1) ratio is greater than 1.It is called as ________",
+      "answers": {
+        "a": "Step down transformer",
+        "b": "Step up transformer",
+        "c": "Isolation transformer",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "In a transformer, if N2 is number of secondary winding N1 is the number of primary winding then, if (N2/N1) ratio is equal to 1.It is called as ________",
+      "answers": {
+        "a": "Step down transformer",
+        "b": "Step up transformer",
+        "c": "Isolation transformer",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "The tap changing control equipment includes ________",
+      "answers": {
+        "a": "Control and paralleling equipment",
+        "b": "Line drop compensator equipment used along with the current transformer to provide voltage control at a point remote from the measuring point",
+        "c": "Automatic voltage regulating relay",
+        "d": "Al"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "16 step tap changes provide ________ voltage change in each step.",
+      "answers": {
+        "a": "2%",
+        "b": "1%",
+        "c": "5/4%",
+        "d": "4/5%"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "In case of, OFF circuit taps, the transformer must be _________ before the tap changer mechanism is operated.",
+      "answers": {
+        "a": "Energized",
+        "b": "De-energized",
+        "c": "Both Energized and De-energized",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Advantage of using instrument Transformer is",
+      "answers": {
+        "a": "Standard rated instruments may be used easily",
+        "b": "It provides safety for operating personal",
+        "c": "Both Standard rated instruments may be used easily and It provides safety for operating personal",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Potential transformers are made with",
+      "answers": {
+        "a": "Low quality icon core operating at very low flex density so that the magnetizing current may be large",
+        "b": "High quality icon core operating at very high flex density so that the magnetizing current may be large",
+        "c": "High quality icon core operating at very high flex density so that the magnetizing current may be very small",
+        "d": "High quality icon core operating at very low flex density so that the magnetizing current may be very small"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "A high magnitude alternating current can be measured by a combination of _________ and_________.",
+      "answers": {
+        "a": "A high magnitude alternating current can be measured by a combination of _________ and_________.",
+        "b": "Current transformer and high range ammeter",
+        "c": "Current transformer and low range ammeter",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "The current transformer ratio is not equal to the ratio of secondary to primary turns.",
+      "answers": {
+        "a": "The above statement is false",
+        "b": "The above statement is false, because of the effect of magnetizing current",
+        "c": "The above statement is true, because of the effect of magnetizing current",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "A current transformer must never be operated on open circuit for",
+      "answers": {
+        "a": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core",
+        "b": "As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation",
+        "c": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "_______ is used to make sure that an electrical circuit can be completely de-energized for service or maintenance.",
+      "answers": {
+        "a": "Circuit breaker",
+        "b": "Isolator",
+        "c": "Fuse",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Isolators are",
+      "answers": {
+        "a": "Manually operated",
+        "b": "Motorized",
+        "c": "Both Manually operated and Motorized",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Characteristic of high voltage rating Circuit Breaker :-",
+      "answers": {
+        "a": "High reliability electrically and mutually",
+        "b": "Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating",
+        "c": "Slower time response",
+        "d": "Both High reliability electrically and mutually and Capability of interrupting capacitive and inductive circuits and fault currents of all values within their rating"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "In oil circuit breaker (O.C.B) the range exists between",
+      "answers": {
+        "a": "75MVA at 2.5 kV and 50000MVA at 250kV",
+        "b": "7.5MVA at 2.5 kV and 50000MVA at 250kV",
+        "c": "250MVA at 2.5 kV and 5000MVA at 250kV",
+        "d": "25MVA at 2.5 kV and 5000MVA at 250kV"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "In SF6 Circuit breaker",
+      "answers": {
+        "a": "No risk of fire",
+        "b": "No reduction of dielectric strength",
+        "c": "Current chopping tendency is minimized",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "The voltage across the contacts during the arcing period is known as",
+      "answers": {
+        "a": "Recovery voltage",
+        "b": "Restriking voltage",
+        "c": "Arc voltage",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "The peak value of current (including the DC component) during first cycle of current wave after the closure of Circuit breaker is known as __________",
+      "answers": {
+        "a": "Breaking capacity",
+        "b": "Making capacity",
+        "c": "Short-time capacity",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "__________ of a Circuit breaker depends upon its ability to withstand the temperature rise and the electromagnetic force effects.",
+      "answers": {
+        "a": "Breaking capacity",
+        "b": "Making capacity",
+        "c": "Short-time capacity",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "The major advantage of single bus-bar system is that fault on one part of the bus�bar or system does not completely shut down the whole station.",
+      "answers": {
+        "a": "False",
+        "b": "True"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Bus bar can be arranged in __________",
+      "answers": {
+        "a": "Single bus-bar system",
+        "b": "Double bus-bar system with sectionalisation",
+        "c": "Both Single bus-bar system and Double bus-bar system with sectionalisation",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "_________ is a device which is used to switch from one bus to the other without any interruption in power supply and without creating hazardous arcs.",
+      "answers": {
+        "a": "Isolator",
+        "b": "Circuit breaker",
+        "c": "Bus coupler",
+        "d": "Any of them"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    }
+  ]
+}
